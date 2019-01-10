@@ -12,6 +12,8 @@
 		BA2488C021E693AA006DDC91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2488BE21E693AA006DDC91 /* Main.storyboard */; };
 		BA2488C221E693AC006DDC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2488C121E693AC006DDC91 /* Assets.xcassets */; };
 		BA2488C521E693AC006DDC91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2488C321E693AC006DDC91 /* LaunchScreen.storyboard */; };
+		BA2488CD21E69FB5006DDC91 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2488CC21E69FB5006DDC91 /* PlacesViewController.swift */; };
+		BA2488D021E6BB55006DDC91 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2488CF21E6BB54006DDC91 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BA2488C121E693AC006DDC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA2488C421E693AC006DDC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA2488C621E693AC006DDC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2488CC21E69FB5006DDC91 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		BA2488CF21E6BB54006DDC91 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2488D021E6BB55006DDC91 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				BA2488B921E693AA006DDC91 /* Memorable Places */,
 				BA2488B821E693AA006DDC91 /* Products */,
+				BA2488CE21E6BB54006DDC91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +62,21 @@
 			children = (
 				BA2488BA21E693AA006DDC91 /* AppDelegate.swift */,
 				BA2488BC21E693AA006DDC91 /* ViewController.swift */,
+				BA2488CC21E69FB5006DDC91 /* PlacesViewController.swift */,
 				BA2488BE21E693AA006DDC91 /* Main.storyboard */,
 				BA2488C121E693AC006DDC91 /* Assets.xcassets */,
 				BA2488C321E693AC006DDC91 /* LaunchScreen.storyboard */,
 				BA2488C621E693AC006DDC91 /* Info.plist */,
 			);
 			path = "Memorable Places";
+			sourceTree = "<group>";
+		};
+		BA2488CE21E6BB54006DDC91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA2488CF21E6BB54006DDC91 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2488CD21E69FB5006DDC91 /* PlacesViewController.swift in Sources */,
 				BA2488BD21E693AA006DDC91 /* ViewController.swift in Sources */,
 				BA2488BB21E693AA006DDC91 /* AppDelegate.swift in Sources */,
 			);
